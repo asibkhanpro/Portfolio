@@ -268,10 +268,9 @@ label {
 	line-height: 50px;
 	animation: bounce 2s 2s linear infinite alternate;
 }
-
 #scrollUp:hover {
-    background: #fff;
-    color: #0c7ac6;
+	background: linear-gradient(99.38deg, #0affba -0.7%, #ffe300 87.79%);
+	color: #000;
 }
 .container {
 	max-width: 1480px;
