@@ -1,0 +1,283 @@
+/* Latop Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+   
+    .slider-text {
+        overflow: hidden;
+        background: linear-gradient(99.38deg, #ff0ad9 -0.7%, #fd0707 87.79%);
+        height: 100%;
+        padding: 20px;
+    }
+    .slider-text p {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18.5px;
+        margin-bottom: 33px;
+    }
+    .slider-text h1 {
+        color: #fff;
+        font-size: 28px;
+    }
+}
+
+
+/* LG  Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main-menu {
+        text-align: left;
+    }
+    .owner-img {
+        width: 25%;
+        height: 25%;
+    }
+    .section-title {
+        padding-bottom: 10px;
+    }
+    .section-title h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+    .section-title.pb-50 p {
+        font-size: 14px;
+        margin: 0;
+    }
+    .about-owner-info h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .about-owner-info h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .about-area .row {
+        align-items: center;
+    }
+    .about-owner-info p {
+        font-size: 13px;
+        line-height: 23px;
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+    
+    .about-list strong {
+        font-size: 15px;
+    }
+    .about-list a {
+        font-size: 17px;
+    }
+    .owner-contact-link a {
+        margin-right: 5px;
+    }
+    .skill-dis p {
+        color: #444;
+        margin-bottom: 50px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .slider-text p {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18.5px;
+        margin-bottom: 33px;
+    }
+    .slider-text h1 {
+        color: #fff;
+        font-size: 28px;
+    }
+    .about-img::before {
+        border: none;
+    }
+    .pt-100{
+        padding-top: 50px !important;
+    }
+    .pb-100{
+        padding-bottom: 50px !important;
+    }
+    .pb-150{
+        padding-bottom: 100px !important;
+    }
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .main-menu{
+        display: none;
+    }
+    .responsive {
+        display: block;
+    }
+      
+    #about {
+        text-align: center !important;
+    }
+    .slider-img img {
+        width: 50%;
+    }
+    .about-list, .about-margin-top {
+        text-align: left;
+    }
+    .about-info {
+        padding: 50px;
+    }
+    .about-img::after {
+        bottom: -20px;
+        right: 0;
+    }
+    .about-img::before {
+        top: -20px;
+        left: 0;
+    }
+    .section-title {
+        padding-bottom: 30px;
+    }
+    .skill-dis p {
+        margin-bottom: 20px;
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .portfolio-menu button {
+        padding: 10px 25px;
+        margin: 0 5px;
+    }
+    #team {
+        padding: 10px 0;
+    }
+    .slider-img img {
+        width: 100%;
+    }
+    .slider-text {
+        overflow: hidden;
+        background: linear-gradient(99.38deg, #ff0ad9 -0.7%, #fd0707 87.79%);
+        height: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .slider-text h1 {
+        font-size: 25px;
+    }
+    .slider-text p {
+        font-size: 18px;
+        line-height: 35px;
+        margin-bottom: 25px;
+    }
+    .contact-shadow {
+        height: 100%;
+    }
+    .header-area {
+        padding: 20px 30px;
+    }
+    .about-img::before, .about-img::after {
+        display: none;
+    }
+    
+    .pt-100{
+        padding-top: 50px !important;
+    }
+    .pb-100{
+        padding-bottom: 50px !important;
+    }
+    .pb-150{
+        padding-bottom: 100px !important;
+    }
+    .owner-img {
+        width: 25%;
+        height: auto;
+    }
+}
+
+
+/* small mobile (XS) :320px. */
+@media (max-width: 767px) {
+
+    .main-menu{
+        display: none;
+    }
+    .responsive {
+        display: block;
+    }
+
+    .slider-img img {
+        width: 100%;
+    }
+
+    .slider-text {
+        overflow: hidden;
+        background: linear-gradient(99.38deg, #ff0ad9 -0.7%, #fd0707 87.79%);
+        height: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .slider-text h1 {
+        font-size: 25px;
+    }
+    .slider-text p {
+        font-size: 18px;
+        line-height: 35px;
+        margin-bottom: 25px;
+    }
+    .portfolio-menu {
+        text-align: left !important;
+    }
+    .portfolio-menu button {
+        color: #fff;
+        border: none;
+        padding: 15px 12px;
+        background: linear-gradient(99.38deg, #26beee -0.7%, #a657e4 87.79%);
+        text-align: left;
+        font-size: 12px;
+        margin: 0;
+    }
+    .about-img::before, .about-img::after {
+        display: none;
+    }
+    
+    .contact-shadow {
+        height: 100%;
+    }
+    .header-area {
+        padding: 20px 30px;
+    }
+    .about-img::before, .about-img::after {
+        display: none;
+    }
+    
+    .pt-100{
+        padding-top: 50px !important;
+    }
+    .pb-100{
+        padding-bottom: 50px !important;
+    }
+    .hero-area {
+        padding-top: 200px;
+        padding-bottom: 0 !important;
+    }
+    .about-img {
+        position: inherit;
+    }
+    .owner-img {
+        width: 25%;
+        height: auto;
+    }
+    .about-info {
+        padding-left: 10px;
+    }
+    .about-img {
+        margin-bottom: 5rem;
+    }
+    .owner-info h1 {
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+    .owner-info h2 {
+        font-size: 20px;
+    }
+}
+
+
+
+/* SM Device :480px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+}
