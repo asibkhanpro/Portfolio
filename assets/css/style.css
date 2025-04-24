@@ -529,12 +529,12 @@ header.sticky {
 .about-area {
     background: #F2F3F9;
 }
-.about-img {
-	position: relative;
+.about-img img {
 }
 .about-img img {
     border: 8px solid #fff;
     border-radius: 3px;
+    z-index: -1;
 }
 .about-img::before, .about-img::after {
     content: "";
@@ -568,11 +568,11 @@ header.sticky {
 	border-bottom: 5px solid;
 }
 .about-owner-info h2 {
-    color: #000;
-    font-weight: 700;
-    font-size: 30px;
-    width: 78%;
-    height: 80px;
+	color: #000;
+	font-weight: 700;
+	font-size: 30px;
+	width: 100%;
+	height: 50px;
 }
 .about-owner-info h2 span {
     color: #f80000;
