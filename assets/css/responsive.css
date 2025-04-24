@@ -189,6 +189,9 @@
     .logo img {
         max-width: 6.5rem;
     }
+    .portfolio-menu {
+        text-align: center !important;
+    }
 }
 
 
@@ -228,7 +231,7 @@
     .portfolio-menu button {
         color: #fff;
         border: none;
-        padding: 15px 12px;
+        padding: 6px 6px;
         background: linear-gradient(99.38deg, #26beee -0.7%, #a657e4 87.79%);
         text-align: left;
         font-size: 12px;
@@ -266,7 +269,8 @@
         height: auto;
     }
     .about-info {
-        padding-left: 10px;
+        padding-left: 0px;
+        text-align: center;
     }
     .about-img {
         margin-bottom: 5rem;
@@ -287,6 +291,64 @@
     }
     .responsive-menu a {
         font-size: 25px;
+    }
+    .contact-info .text {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .contact-info h3 {
+        font-size: 35px;
+        margin-bottom: 1.5rem;
+    }
+    .slider-text p {
+        text-align: center;
+    }
+    .information a {
+        font-size: 18px;
+    }
+    .paragraph .mr-5 {
+        font-size: 18px;
+    }
+    .portfolio-menu {
+        text-align: center !important;
+    }
+    .skill-dis h3 {
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin-bottom: 12px;
+        font-size: 25px;
+    }
+    .skill-dis p {
+        margin-bottom: 35px;
+    }
+    .skill-dis span {
+        margin-bottom: 20px;
+    }
+    .section-title {
+        padding-bottom: 20px !important;
+        margin: 0 auto;
+    }
+    .list-inline {
+        text-align: left;
+    }
+    .list-unstyled {
+        text-align: left;
+    }
+    .about-owner-info p {
+        margin-bottom: 18px;
+        text-align: center;
+    }
+    .about-btn {
+        margin-top: 2.5rem;
+    }
+    .about-margin-top {
+        margin-top: 2.5rem;
+    }
+    .contact-form {
+        padding: 20px;
+    }
+    .contact-info {
+        padding: 20px;
     }
 }
 
