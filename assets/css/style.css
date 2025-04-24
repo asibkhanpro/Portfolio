@@ -318,23 +318,29 @@ header.sticky {
     display: inline-block;
     z-index: 999;
     background: linear-gradient(99.38deg, #26beee -0.7%, #a657e4 87.79%);
-    padding: 1.3rem 1.5rem;
     border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    margin: 0 auto;
+    padding: 1rem .7rem;
 }
 .responsive {
 	display: none;
 }
 .hamburger-menu span {
     background: #ffffff;
-    width: 3.4rem;
+    width: 3rem;
     height: 0.3rem;
     display: block;
-    margin: 0.7rem 0;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    margin: 5px auto;
 }
-  
+.hamburger-menu .line-top.current{
+    margin: 6px auto;
+}
+
 .hamburger-menu:hover .line-top {
     -webkit-transform: translateY(-100%);
     -ms-transform: translateY(-100%);
@@ -360,7 +366,7 @@ header.sticky {
 .hamburger-menu .line-bottom.current {
     -webkit-transform: translateY(-400%) rotate(-135deg);
     -ms-transform: translateY(-400%) rotate(-135deg);
-    transform: translateY(-400%) rotate(-135deg);
+    transform: translateY(-350%) rotate(-135deg);
 }
 .responsive-menu {
     position: fixed;
@@ -572,10 +578,12 @@ header.sticky {
     color: #000;
     font-weight: 700;
     font-size: 30px;
-    margin-bottom: 50px;
+    width: 78%;
+    height: 80px;
 }
 .about-owner-info h2 span {
     color: #f80000;
+    width: 70%;
 }
 .section-title h2 span {
 	color: red;

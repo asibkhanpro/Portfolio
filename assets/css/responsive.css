@@ -237,7 +237,7 @@
         height: 100%;
     }
     .header-area {
-        padding: 20px 30px;
+        padding: 15px;
     }
     .about-img::before, .about-img::after {
         display: none;
@@ -272,6 +272,9 @@
     }
     .owner-info h2 {
         font-size: 20px;
+    }
+    .logo img {
+        width: 23%;
     }
 }
 
