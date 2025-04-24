@@ -184,6 +184,11 @@
         width: 25%;
         height: auto;
     }
+    
+
+    .logo img {
+        max-width: 6.5rem;
+    }
 }
 
 
@@ -274,7 +279,14 @@
         font-size: 20px;
     }
     .logo img {
-        width: 23%;
+        max-width: 6rem;
+    }
+    .responsive-menu li {
+        text-align: left;
+        margin-left: 2rem;
+    }
+    .responsive-menu a {
+        font-size: 25px;
     }
 }
 
