@@ -17,11 +17,26 @@
         color: #fff;
         font-size: 28px;
     }
+    .slider-img img {
+        max-width: 372px;
+    }
+    .slider-text p {
+        width: 95%;
+        height: 12rem;
+    }
 }
 
 
 /* LG  Device :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
+    
+    .slider-text {
+        height: 349px;
+        padding: 40px;
+    }
+    .slider-img img {
+        width: 420px;
+    }
     .main-menu {
         text-align: left;
     }
